@@ -7,7 +7,7 @@ body {
   padding: 2% 7% 5%;
 }
 
-/* Button */
+                             /* Button */
 .title-btn {
   background-color: #bcb4b4;
   color: black;
@@ -35,13 +35,15 @@ body {
   padding-bottom: 5%;
 }
 
-/* Navbar */
+                          /* Navbar */
 .navbar {
   padding: 0 0 5%;
 }
 
 .nav-link {
   color: #BCB4B4;
+  font-weight: 600;
+  font-size: 16px;
 }
 
 .nav-brand {
@@ -53,7 +55,7 @@ body {
   text-decoration: none;
 }
 
-/* Title */
+                          /* Title */
 #title {
   background-color: #262626;
   color: #BCB4B4;
@@ -82,7 +84,7 @@ body {
   color: #BCB4B4;
 }
 
-/* about */
+                             /* about */
 #about {
   background-color: #262626;
 }
@@ -107,7 +109,7 @@ body {
   font-size: 30px;
   color: #BCB4B4;
   text-align: center;
-  padding: 2% 0 0;
+  padding: 5% 0 0;
 }
 
 .hr-line {
@@ -144,10 +146,13 @@ body {
   position: relative;
   width: 40%;
   margin-left: 28%;
-  padding-bottom: 4%;
+
+  background-color: #BCB4B4;
+ border: 2px solid;
+ border-radius: 10%;
 }
 
-/* Skill */
+                         /* Skill */
 .container {
   width: 80%;
   padding-top: 2%;
@@ -211,7 +216,7 @@ body {
   width: calc(90% - 10px);
 }
 
-/* projects */
+                               /* projects */
 #Projects {
   background-color: #262626;
 }
@@ -220,7 +225,7 @@ body {
   width: 100%;
 }
 
-/* card */
+                               /* card */
 .card{
   background-color: #1E1E1E;
   height: 100%;
@@ -237,14 +242,15 @@ body {
 .project-card{
   padding:3% 1% 3%;
 }
-/* testimonials */
+                           /* testimonials */
 #testimonials {
   background-color: #262626;
   padding: 0 8% 3%;
 }
 .carousel-text{
- font-weight: 400;
+ font-weight: 600;
   color: #FFA500;
+  font-size: 20px;
 }
 .carousel{
   padding-top: 3%;
@@ -266,7 +272,7 @@ body {
   padding-top: 5%;
 
 }
-/* Contact */
+                               /* Contact */
 #contact {
   background-color: #262626;
 }
@@ -281,7 +287,7 @@ body {
   padding: 1% 20% 2%;
 }
 
-/* Social Link */
+                          /* Social Link */
 .social-icon {
   text-align: center;
 }
@@ -319,7 +325,7 @@ body {
 
 }
 
-/* copyright */
+                               /* copyright */
 .copyright {
   text-align: center;
   background-color: #1E1E1E;
