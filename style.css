@@ -39,13 +39,15 @@ body {
 .navbar {
   padding: 0 0 5%;
 }
-
+.navbar-nav{
+  margin-left: 65%;
+}
 .nav-link {
   color: #BCB4B4;
-  font-weight: 600;
-  font-size: 16px;
+  font-weight: 700;
+  font-size: 18px;
+  margin: 0 5%;
 }
-
 .nav-brand {
   color: #FFA500;
 }
@@ -90,7 +92,7 @@ body {
 }
 
 .feature-section {
-  padding-bottom: 8%;
+  padding-bottom: 10%;
   padding-top: 2%
 }
 
@@ -155,6 +157,7 @@ body {
 .container {
   width: 80%;
   padding-top: 2%;
+  padding-left: 5%;
 }
 
 @keyframes load {
@@ -336,4 +339,33 @@ body {
   background-color: #1E1E1E;
   color: #D0C9C0;
   padding: 2% 0 2%;
+}
+
+
+
+
+              /* MediaQuery */
+@media (max-width:990px) {
+.container-fluid{
+  padding: 3% 3% 3%;
+}
+
+.feature-section .feature-paragraph {
+padding-bottom: 10%;
+}
+.container {
+  width: 60%;
+}
+.about-myself{
+width: 60%;
+margin-left: 20%;
+padding-bottom: 3%;
+}
+#Projects {
+  padding: 0 3%;
+}
+.title-img {
+  width: 50%;
+  margin-left: 40%;
+}
 }
