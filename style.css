@@ -1,6 +1,8 @@
 body {
   margin: 0;
   font-family: 'Raleway', sans-serif;
+  background-color: #262626;
+  color: #BCB4B4;
 }
 
 .container-fluid {
@@ -39,15 +41,17 @@ body {
 .navbar {
   padding: 0 0 5%;
 }
-.navbar-nav{
+
+.navbar-nav {
   margin-left: 65%;
 }
+
 .nav-link {
-  color: #BCB4B4;
   font-weight: 700;
   font-size: 18px;
   margin: 0 5%;
 }
+
 .nav-brand {
   color: #FFA500;
 }
@@ -58,11 +62,7 @@ body {
 }
 
 /* Title */
-#title {
-  background-color: #262626;
-  color: #BCB4B4;
-  padding-bottom: 3%;
-}
+#title {}
 
 .title-img {
   width: 80%;
@@ -71,7 +71,6 @@ body {
 }
 
 .bold-header {
-  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 40px;
 }
@@ -83,13 +82,10 @@ body {
 .title-p {
   padding-bottom: 4%;
   padding-top: 2%;
-  color: #BCB4B4;
 }
 
 /* about */
-#about {
-  background-color: #262626;
-}
+#about {}
 
 .feature-section {
   padding-bottom: 10%;
@@ -97,21 +93,17 @@ body {
 }
 
 .section-header {
-  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 40px;
-  color: #BCB4B4;
   text-align: center;
   padding: 3% 0 0;
 }
 
 .section-header-2 {
-  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 30px;
-  color: #BCB4B4;
   text-align: center;
-  padding: 5% 0 0;
+  padding: 6% 0 0;
 }
 
 .hr-line {
@@ -134,12 +126,10 @@ body {
 
 .feature-heading {
   text-align: center;
-  color: #BCB4B4;
   font-weight: 700;
 }
 
 .feature-paragraph {
-  color: #BCB4B4;
   text-align: center;
   line-height: 1.5;
 }
@@ -147,9 +137,8 @@ body {
 .my-image {
   position: relative;
   width: 40%;
-  margin-left: 28%;
+  margin-left: 30%;
   background-color: #BCB4B4;
-  border: 2px solid;
   border-radius: 10%;
 }
 
@@ -219,9 +208,7 @@ body {
 }
 
 /* projects */
-#Projects {
-  background-color: #262626;
-}
+#Projects {}
 
 .project-img {
   width: 100%;
@@ -231,11 +218,6 @@ body {
 .card {
   background-color: #1E1E1E;
   height: 100%;
-}
-
-.card-body {
-  background-color: #1E1E1E;
-  color: #D0C9C0;
 }
 
 .card-title {
@@ -249,7 +231,6 @@ body {
 
 /* testimonials */
 #testimonials {
-  background-color: #262626;
   padding: 0 8% 3%;
 }
 
@@ -282,9 +263,7 @@ body {
 }
 
 /* Contact */
-#contact {
-  background-color: #262626;
-}
+#contact {}
 
 .form-control {
   background-color: #1E1E1E;
@@ -316,56 +295,44 @@ body {
   padding-bottom: 2%;
 }
 
-.contact-info {
-  color: #D0C9C0;
-  text-align: center;
-  line-height: 1.5;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 400;
-}
-
 .contact-icon {
   color: #D0C9C0;
   padding: 2% 0 3%;
-}
-
-.contact-bar {
-  text-align: center;
 }
 
 /* copyright */
 .copyright {
   text-align: center;
   background-color: #1E1E1E;
-  color: #D0C9C0;
   padding: 2% 0 2%;
 }
 
-
-
-
-              /* MediaQuery */
+/* MediaQuery */
 @media (max-width:990px) {
-.container-fluid{
-  padding: 3% 3% 3%;
-}
+  .container-fluid {
+    padding: 3% 3% 5%;
+  }
 
-.feature-section .feature-paragraph {
-padding-bottom: 10%;
-}
-.container {
-  width: 60%;
-}
-.about-myself{
-width: 60%;
-margin-left: 20%;
-padding-bottom: 3%;
-}
-#Projects {
-  padding: 0 3%;
-}
-.title-img {
-  width: 50%;
-  margin-left: 40%;
-}
+  .feature-section .feature-paragraph {
+    padding-bottom: 10%;
+  }
+
+  .container {
+    width: 80%;
+  }
+
+  .about-myself {
+    width: 80%;
+    margin-left: 10%;
+    padding-bottom: 3%;
+  }
+
+  #Projects {
+    padding: 0 3%;
+  }
+
+  .title-img {
+    width: 50%;
+    margin-left: 40%;
+  }
 }
