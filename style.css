@@ -84,9 +84,12 @@ body {
 
 .bold-header {
   font-weight: 700;
-  font-size: 40px;
+  font-size: 45px;
 }
-
+.bold-header-2 {
+  font-weight: 700;
+  font-size: 35px;
+}
 .header-title {
   padding-top: 40px;
 }
@@ -325,17 +328,35 @@ body {
   .container-fluid {
     padding: 5% 5% 5%;
   }
+  .nav-link {
+    font-weight: 700;
+    font-size: 23px;
+  }
+  .navbar-toggler{
+    height: 60px;
+    width: auto;
+    border: 1px solid #D0C9C0;
 
+  }
+  .nav-brand{
+    height: 60px;
+    width: auto;
+  }
   .section-header {
-    font-size: 35px;
+    font-size: 40px;
     padding: 5% 0 0;
   }
-
+  .section-header-2 {
+  font-size: 40px;
+  }
   .bold-header {
     font-weight: 700;
-    font-size: 45px;
+    font-size: 50px;
+    line-height: 1.5;
   }
-
+  .bold-header-2 {
+    font-size: 40px;
+  }
   .header-title {
     text-align: center;
     line-height: 1.5;
@@ -346,22 +367,30 @@ body {
     font-size: 25px;
     font-weight: 600;
   }
+  .title-btn-about {
+    font-size: 25px;
+  }
 
+  .cv-btn {
+    font-size: 25px;
+  }
   .title-p {
     padding-bottom: 2%;
     padding-top: 2%;
-    font-size: 23px;
+    font-size: 26px;
   }
-
+  .feature-heading {
+  font-size: 30px;
+  }
   .feature-section .feature-paragraph {
     padding-bottom: 10%;
   }
   .feature-paragraph {
-  font-size: 23px;
+  font-size: 25px;
   }
 
   .container {
-    width: 100%;
+    width: 95%;
   }
 
   .about-myself {
@@ -370,7 +399,7 @@ body {
   }
 
   #Projects {
-    padding: 0 5%;
+    padding: 0 2%;
   }
 
   .title-img {
@@ -388,7 +417,7 @@ body {
   }
 
   .carousel-inner {
-    padding: 5% 3% 8%;
+    padding: 5% 4% 8%;
   }
 
   .contact-form {
