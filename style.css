@@ -74,7 +74,9 @@ body {
 }
 
 /* Title */
-#title {}
+#title {
+  padding-bottom: 3%;
+}
 
 .title-img {
   width: 70%;
